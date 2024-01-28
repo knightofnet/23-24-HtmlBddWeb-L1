@@ -1,0 +1,72 @@
+/* Feuille de style pour Cinema */
+
+body { 
+     background : #FEE9D8;
+     }
+
+h1
+    { 
+     border : double #DEB887 2pt; 
+     text-align : center; 
+     color : #DEB887; 
+     width : 60%;
+     margin-left : 10%; 
+     }
+
+h1:first-letter
+   {
+   font-size : 250%;
+   font-style : italic; 
+   color : #A52A2A;
+   }
+
+p:first-letter
+   {
+   font-size : 250%;
+   font-style : italic; 
+   color : #A52A2A;
+   font-weight : bold;
+   }
+
+fieldset{
+         width : 80%;
+         border : solid #A52A2A 2pt;
+         margin-top : 5pt;
+         margin-bottom : 20pt;
+        }
+
+legend, caption {
+                font-weight : bold;
+                }
+
+table {
+      background : #DEB887;
+      border : ridge #A52A2A;
+      }
+
+th,td {
+      border : solid #A52A2A 1pt;
+      }
+
+img{
+   width : 30%;
+   }
+  
+hr{
+  border : ridge #A52A2A;
+  width : 100%;
+  padding : 1pt;
+  margin-top : 280pt;
+  }
+
+.droite{
+       float:right;
+       width : 40%;
+       margin-top : 10pt;
+       }
+.gauche{
+       float:left;
+       width : 60%;
+       }
+	   
+	   

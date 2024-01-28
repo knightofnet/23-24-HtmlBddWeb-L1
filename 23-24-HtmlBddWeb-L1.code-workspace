@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"php.validate.executablePath": ""
+	},
+	"extensions": {
+		"recommendations": [
+			"aeschli.vscode-css-formatter",
+			"ecmel.vscode-html-css",
+			"celianriboulet.webvalidator",
+			"bmewburn.vscode-intelephense-client",
+			"xdebug.php-debug"
+		]
+	}
+}

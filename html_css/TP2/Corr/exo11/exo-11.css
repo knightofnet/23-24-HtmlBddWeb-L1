@@ -1,0 +1,30 @@
+/* exo-2.css */
+#drapeau {
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 300px 300px;
+}
+
+.rouge {
+	background-color: red;
+}
+
+.jaune {
+	background-color: yellow;
+}
+
+.haut {
+	grid-row: 1;
+}
+
+.bas {
+	grid-row: 2;
+}
+
+.gauche {
+	grid-column: 1;
+}
+
+.droite {
+	grid-column: 2;
+}

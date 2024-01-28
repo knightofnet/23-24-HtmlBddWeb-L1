@@ -1,0 +1,27 @@
+/* exo-5.css */
+html {
+	background-color: #999;
+}
+
+.top3actus {
+	display : grid;
+	grid-gap: 1em; /* pas vraiment utile */
+	grid-template-columns: repeat(3, 1fr);
+	width : 800px;
+}
+
+.news {
+	padding: 1em;
+	width : 250px;
+	background-color: #fdfdfd;
+}
+
+.image {
+	width: 250px;
+}
+
+.accroche {
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

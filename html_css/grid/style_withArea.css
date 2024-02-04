@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+
+    height: 100vh;
+    overflow: auto;
+    background-color: #f3f4f6;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas: 
+    "one two"
+    "three two"
+    "three four"; 
+}
+
+
+.more-style {   
+    
+    margin : 0.5em 0.5em 2em 0.5em;
+    border : 5px darkred solid;
+    padding : 0.5em;
+    background-color: white;
+    box-shadow: 0px 5px 7px 4px rgba(0,0,0,0.1);
+}
+
+.one, .two, .three, .four {
+    border-radius: 5px;    
+    overflow: hidden;
+}
+
+
+/*
+* Règles CSS pour les zone de la grille, 
+* en utilisant grid-area
+*/
+.one {
+    background-color: #c0bd95;
+
+    grid-area: one;
+}
+
+.two {
+    background-color: #ffce57;
+
+    grid-area: two;
+}
+
+.three {
+    background-color: #9a9671;
+
+    grid-area: three;
+}
+
+.four {
+    background-color: #d9971a;
+
+    grid-area: four;
+}
+
+
+/*
+* Règles CSS pour gérer les gouttières (gap)
+*/
+.rg {
+    row-gap: 50px;
+}
+
+.cg {
+    column-gap: 100px;
+}
+
+.row_and_column_gap {
+    gap : 66px;
+}
+
+
+/*
+* Alignement du contenu
+*/
+.container-alignement-center {
+    align-items: center;
+    justify-items: center;
+}
+
+.self-alignement-center {
+    align-self : end;
+    justify-self: center;
+}

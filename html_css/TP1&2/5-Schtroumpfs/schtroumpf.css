@@ -1,0 +1,74 @@
+/* Feuille de style pour Schtroumpf */
+
+/* Styles pour les titres de niveau 1 */
+h1 {
+  border: solid 3pt #0000AA; /* Bordure solide avec couleur et épaisseur spécifiées */
+  text-align: center; /* Alignement du texte */
+  color: #BB0000; /* Couleur du texte */
+  margin: 5pt; /* Marge extérieure */
+  padding: 3pt; /* Espacement intérieur */
+  width: 50%; /* Largeur */
+  margin-left: auto; /* Centrage horizontal */
+  margin-right: auto; /* Centrage horizontal */
+  background: #B0E0E6; /* Couleur de fond */
+}
+
+/* Styles pour les titres de niveau 2 */
+h2 {
+  text-decoration: underline; /* Soulignement du texte */
+  color: #0000BB; /* Couleur du texte */
+}
+
+/* Styles pour les listes non ordonnées */
+ul {
+  list-style-type: circle; /* Type de puce */
+}
+
+/* Styles pour les tableaux */
+table {
+  background: #B0E0E6; /* Couleur de fond */
+  border: solid navy; /* Bordure solide avec couleur spécifiée */
+}
+
+/* Styles pour l'en-tête du tableau */
+.entete {
+  background: #00CEAA; /* Couleur de fond */
+  border: solid navy; /* Bordure solide avec couleur spécifiée */
+}
+
+/* Styles pour les cellules d'en-tête du tableau */
+th {
+  background: #87CEFA; /* Couleur de fond */
+  border: solid navy; /* Bordure solide avec couleur spécifiée */
+}
+
+/* Styles pour les cellules de données du tableau */
+td {
+  height: 100pt; /* Hauteur */
+  border: solid gray; /* Bordure solide avec couleur spécifiée */
+}
+
+/* Styles pour les images des Schtroumpfs au survol */
+.GdScht:hover {
+  background: url("grandSchtroumpf.jpg") no-repeat; /* Image de fond */
+  background-size: 100pt 100pt; /* Taille de l'image */
+  font-weight: bold; /* Poids de la police */
+}
+
+.SchtALunettes:hover {
+  background: url("schtroumpfALunettes.jpg") no-repeat; /* Image de fond */
+  background-size: 100pt 100pt; /* Taille de l'image */
+  font-weight: bold; /* Poids de la police */
+}
+
+.SchtFarceur:hover {
+  background: url("schtroumpfFarceur.jpg") no-repeat; /* Image de fond */
+  background-size: 100pt 100pt; /* Taille de l'image */
+  font-weight: bold; /* Poids de la police */
+}
+
+.Schtroumpfette:hover {
+  background: url("schtroumpfette.jpg") no-repeat; /* Image de fond */
+  background-size: 100pt 100pt; /* Taille de l'image */
+  font-weight: bold; /* Poids de la police */
+}

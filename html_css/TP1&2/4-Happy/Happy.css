@@ -1,0 +1,59 @@
+/* Feuille de style pour Happy */
+
+body {
+  background-color: rgb(138, 64, 164);
+}
+
+h1 {
+  background-color: navy;
+  border: groove white 3pt;
+  padding: 10pt;
+  text-align: center;
+  color: white;
+  width: 60%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 16pt;
+  text-decoration: underline;
+  color: #DF01A5;
+  margin-left: 20pt;
+}
+
+pre {
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  color: #610B4B;
+}
+
+img {
+  width: 160pt;
+}
+
+hr {
+  width: 30%;
+  height: 5pt;
+  background-color: #F000F0;
+}
+
+.colonneGauche {
+  float: left;
+  background-color: #DBC1F5;
+  margin-top: 20pt;
+  padding-right: 20pt;
+}
+
+.colonneDroite {
+  float: right;
+  background-color: #DBC1FB;
+  margin-top: 20pt;
+  padding-right: 20pt;
+}
+
+p.photo {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}

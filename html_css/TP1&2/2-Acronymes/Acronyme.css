@@ -1,0 +1,95 @@
+/* Feuille de style pour Acronymes */
+
+/* 
+Styles pour les titres de niveau 1 
+*/
+h1 {
+  border: ridge navy 10pt; /* Bordure en relief avec couleur et épaisseur spécifiées */
+  background-color: #DDA0DD; /* Couleur de fond */
+  font-family: Arial; /* Police de caractères */
+  font-size: 16pt; /* Taille de la police */
+  text-align: center; /* Alignement du texte */
+  color: navy; /* Couleur du texte */
+  margin: 10pt; /* Marge extérieure */
+  padding: 5pt; /* Espacement intérieur */
+  width: 30%; /* Largeur */
+  margin-left: auto; /* Centrage horizontal */
+  margin-right: auto; /* Centrage horizontal */
+  margin-bottom: 20pt; /* Marge inférieure */
+}
+
+/* 
+Styles pour les paragraphes 
+*/
+p {
+  font-weight: bold; /* Poids de la police */
+  color: purple; /* Couleur du texte */
+}
+
+/* 
+Styles pour les liens 
+*/
+a {
+  font-family: "Courier New"; /* Police de caractères */
+  background-color: #D8BFD8; /* Couleur de fond */
+}
+
+/* 
+Styles pour les tableaux 
+*/
+table {
+  background-color: rgb(255, 105, 180); /* Couleur de fond */
+  border: solid black 1pt; /* Bordure solide avec couleur et épaisseur spécifiées */
+  width: 50%; /* Largeur */
+  margin-left: auto; /* Centrage horizontal */
+  margin-right: auto; /* Centrage horizontal */
+}
+
+/* 
+Styles pour l'en-tête du tableau 
+*/
+thead {
+  text-align: center; /* Alignement du texte */
+  height: 30pt; /* Hauteur */
+}
+
+/* 
+Styles pour le corps du tableau 
+*/
+tbody {
+  background-color: rgb(255, 192, 203); /* Couleur de fond */
+}
+
+/* 
+Styles pour les cellules d'en-tête et de données du tableau 
+*/
+th,
+td {
+  border: solid black 1pt; /* Bordure solide avec couleur et épaisseur spécifiées */
+}
+
+/* 
+Styles pour les éléments avec la classe "definition" 
+*/
+.definition {
+  border: #4B0082 5pt groove; /* Bordure avec couleur, épaisseur et style spécifiés */
+  background-color: rgb(176, 224, 230); /* Couleur de fond */
+  margin-bottom: 1em; /* Marge inférieure */
+}
+
+/* 
+Styles pour les éléments avec la classe "bordure" 
+*/
+.bordure {
+  border: #FFFFFF 3pt dotted; /* Bordure en pointillés avec couleur et épaisseur spécifiées */
+  padding-left: 3pt; /* Espacement à gauche */
+  padding-right: 5pt; /* Espacement à droite */
+  color: #FF00FF; /* Couleur du texte */
+}
+
+/* 
+Styles pour les sauts de ligne 
+*/
+br {
+  height: 10pt; /* Hauteur */
+}

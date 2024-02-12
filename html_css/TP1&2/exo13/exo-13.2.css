@@ -1,0 +1,21 @@
+/* exo-4.2.css */
+#page {
+	width: 600px;
+	text-align: justify;
+	display: grid;
+	grid-template-areas: "le te "
+		"te te ";
+}
+
+#lettrine {
+	width: 60px;
+	height: 60px;
+	font-size: 80px;
+	grid-area: le;
+	border: dotted 1px red;
+}
+
+#texte {
+	grid-area: te;
+	border: dotted 1px blue;
+}

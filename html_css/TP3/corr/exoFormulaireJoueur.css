@@ -1,12 +1,17 @@
- body {background-color:rgb(253,206,250);} 
+ body {
+     background-color: rgb(253, 206, 250);
+ }
 
- h1 {color:blue;}
+ h1 {
+     color: blue;
+ }
 
  h2 {
-    color:rgb(0,0,139); /* darkblue */
-    margin-top:20pt;
-    }
-   
-form {
-      margin-left : 20pt;
-     }
+     color: rgb(0, 0, 139);
+     /* darkblue */
+     margin-top: 20pt;
+ }
+
+ form {
+     margin-left: 20pt;
+ }

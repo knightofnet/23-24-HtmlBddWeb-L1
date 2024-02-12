@@ -1,0 +1,97 @@
+/* Feuille de style pour Aluminium */
+
+/* Styles pour le corps de la page */
+body {
+  background-color: rgb(204, 255, 255);
+  /* Couleur de fond */
+
+  font-family: "Times New Roman";
+  /* Police de caractères */
+
+  color: navy;
+  /* Couleur du texte */
+}
+
+/* Styles pour les titres de niveau 1 */
+h1 {
+  background-color: navy;
+  /* Couleur de fond */
+
+  border: double white 3px;
+  /* Bordure double blanche */
+
+  font-size: 18px;
+  /* Taille de la police */
+
+  text-align: center;
+  /* Alignement du texte */
+
+  color: white;
+  /* Couleur du texte */
+
+  width: 60%;
+  /* Largeur */
+}
+
+/* Styles pour les titres de niveau 2 */
+h2 {
+  font-size: 16pt;
+  /* Taille de la police */
+
+  text-decoration: underline;
+  /* Soulignement */
+
+  color: red;
+  /* Couleur du texte */
+}
+
+/* Styles pour les titres de niveau 3 */
+h3 {
+  font-size: 14pt;
+  /* Taille de la police */
+
+  font-style: italic;
+  /* Style de la police */
+
+  color: green;
+  /* Couleur du texte */
+
+  margin-left: 5px;
+  /* Marge à gauche */
+}
+
+/* Styles pour les paragraphes */
+p {
+  font-weight: bold;
+  /* Poids de la police */
+
+  margin-left: 10pt;
+  /* Marge à gauche */
+
+  text-align: justify;
+  /* Justification du texte */
+}
+
+/* Styles pour les listes non ordonnées */
+ul {
+  font-weight: bold;
+  /* Poids de la police */
+
+  list-style-type: square;
+  /* Type de puce */
+
+  margin-left: 15pt;
+  /* Marge à gauche */
+}
+
+/* Styles pour les listes ordonnées */
+ol {
+  font-weight: bold;
+  /* Poids de la police */
+  
+  list-style-type: lower-roman;
+  /* Type de numérotation */
+  
+  margin-left: 15pt;
+  /* Marge à gauche */
+}

@@ -1,43 +1,47 @@
 ﻿<!DOCTYPE html>
-<html lang="fr">  
- <head>
+<html lang="fr">
+
+<head>
   <title>Soldes</title>
   <meta charset="UTF-8" />
- </head>
+</head>
 
- <body>
- <h1>Calcul d'un prix</h1>
- <form id="prix" action="ficVide.php" method="get">
- 
-  <p>
-   <label>
-     Prix de départ : 
-     <input type="number" name="prixD" value="0" min="0" step="0.5" onchange="prixF.value=prixD.value*(1-taux.value/100)"/>
-   </label>  
-   euros
-   <br/>
-   <label>
-     taux de remise :
-    <input type="number" name="taux" value="0" min="0" max="100" step="1" onchange="prixF.value=prixD.value*(1-taux.value/100)"  />
-   </label>
-  % 
-<br/>
-  <label>
-   Prix final :  
-    <output name="prixF" >0</output> 
- </label>
-euros
-  </p>
-  <p> Avez-vous trouvé cette page utile? Donner une note entre 0 et 5</p>
-  <label> 
-  Pas du tout
-  <input id="interet" type="range" min="0" max="5" step="1" onchange="res.value=this.value" />
-  Carrément top
-  </label>
- <p> Note :
-  <output name="res"></output>
- </p>
-   <p><input class="margeHaute" type="submit" name="soumet" value="Valider" /> </p>
+<body>
+  <h1>Calcul d'un prix</h1>
+  <form id="prix" action="ficVide.php" method="get">
+
+    <p>
+      <label>
+        Prix de départ :
+        <input type="number" name="prixD" value="0" min="0" step="0.5"
+          onchange="prixF.value=prixD.value*(1-taux.value/100)" />
+      </label>
+      euros
+      <br />
+      <label>
+        taux de remise :
+        <input type="number" name="taux" value="0" min="0" max="100" step="1"
+          onchange="prixF.value=prixD.value*(1-taux.value/100)" />
+      </label>
+      %
+      <br />
+      <label>
+        Prix final :
+        <output name="prixF">0</output>
+      </label>
+      euros
+    </p>
+    <p> Avez-vous trouvé cette page utile? Donner une note entre 0 et 5</p>
+    <label>
+      Pas du tout
+      <input id="interet" type="range" min="0" max="5" step="1" onchange="res.value=this.value" />
+      Carrément top
+    </label>
+    <p> Note :
+      <output name="res"></output>
+    </p>
+    <p><input class="margeHaute" type="submit" name="soumet" value="Valider" /> </p>
   </form>
- </body>
+</body>
+
 </html>

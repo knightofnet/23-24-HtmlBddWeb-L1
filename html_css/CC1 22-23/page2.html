@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>ChatGPT is fun, but not an author - Form</title>
+    <meta charset="utf-8" />
+    <link href="page.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="navbar">
+            <div class="row">
+                <img src="pubmed-logo-blue.PNG" alt="logo">
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="row">
+                <h1>ChatGPT is fun, but not an author</h1>
+
+                <p>
+                    <a href="page1.html">
+                        &lt;&lt; Back to the article
+                    </a>
+                </p>
+
+                <form method="post" action="test.php">
+
+                    <fieldset>
+                        <legend>Fill this form to receive this article :</legend>
+
+                        <div class="inputOneLine">
+                            <label for="inputName">Name  :</label>
+                            <input type="text" required id="inputName">
+                        </div>
+
+                        <div class="inputOneLine">
+                            <label for="inputEmail">Email address :</label>
+                            <input type="email" required id="inputEmail">
+                            <p class="msg">
+                                For the email address, please respect the following 
+                                format: aaa@bbb.cc where aaa, b and cc are alphanumeric 
+                                characters. aaa is the name and must be at least 3 
+                                characters long, bbb is the domain name and must also 
+                                be at least 3 characters long. cc is the root and must 
+                                be at least 2 characters long
+                            </p> 
+                        </div>
+                        <div>
+                            <label for="inputHuman">Prove that you are human : 2 + 5</label>
+                            <div>
+                                <input type="radio" name="resHuman" value="5"> 5
+                                <input type="radio" name="resHuman" value="6"> 6
+                                <input type="radio" name="resHuman" value="7"> 7
+                                <input type="radio" name="resHuman" value="8"> 8
+                                <input type="radio" name="resHuman" value="9" checked> 9
+                            </div>
+                        </div>
+
+                        <input type="submit" value="Send request">
+                        <input type="reset">
+
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <h3>Full text link</h3>
+            <img src="logo-sciences-aaas.gif" alt="sciences-aaas">
+
+            <h3>Share</h3>
+            <div class="gridThree">
+                <div>
+                    <img src="twitter-icon.png" alt="share on twitter">
+                </div>
+                <div>
+                    <img src="facebook-icon.png" alt="share on facebook">
+                </div>
+                <div>
+                    <img src="share-icon.png" alt="share article">
+                </div>
+            </div>
+
+            <h3>Send by mail</h3>
+            <a href="page2.html">Click here to fill the form</a>
+
+        </div>
+
+        <div id="footer" class="gridThree">
+
+            <div class="footerDiv">
+                <ul>
+                    <li>National Library of Medicine</li>
+                    <li>8600 Rockville Pike</li>
+                    <li>Bethesda, MD 20894</li>
+                </ul>
+            </div>
+
+            <div class="footerDiv">
+                <ul>
+                    <li><a href="#">Web Policies</a></li>
+                    <li><a href="#">FOIA</a></li>
+                    <li><a href="#">HHS Vulnerability Disclosure</a></li>
+                </ul>
+            </div>
+
+            <div class="footerDiv">
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

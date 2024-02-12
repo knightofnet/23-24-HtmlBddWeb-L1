@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>CC1 - Aidez-moi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    
+    <div id="main">
+
+        <div id="navbar">           
+            <img  src="miniLogo.png" alt="Logo HTML" >
+            <h2>Apprendre le <span class="italic">HTML !</span></h2>            
+            
+            <div class="nav-links">
+                <ul>
+                    <li><a class="aInline" href="page1.html">Accueil</a></li>
+                    <li><a class="aInline" href="#">Cours</a></li>
+                    <li><a class="aInline selected" href="page2.html">Aidez-moi !</a></li>  
+                </ul>
+            </div> 
+        </div>
+
+        <div id="sidebar">
+            <h3 class="">Les rubriques</h3>
+            <p><a class="" href="#">Apprendre HTML</a></p>
+            <p><a class="" href="#">Le style avec CSS</a></p>
+            <p><a class="" href="#">Dynamisme avec Javascript</a></p>           
+        </div>
+
+        <div id="content">
+            <h1>Aidez-moi !</h1>
+
+            <p>L'entraide est à la base de notre communeauté. 
+                Pour demander de l'aide, remplissez ce formulaire afin que
+                nous puissions vous aider.
+            </p>
+            <form method="post" target="">
+
+                <fieldset>
+                    <legend>Vos informations</legend>
+
+                    <div>
+                        <label for="fNom">Nom</label>
+                        <input id="fNom" type="text" minlength="3" maxlength="255" required>
+
+                        <label for="fPrenom">Prénom</label>
+                        <input id="fPrenom" type="text" minlength="3" maxlength="255" required>
+                    </div>
+
+                    <label for="fEmail">Email</label>
+                    <input id="fEmail" type="text" size="60" maxlength="255" required pattern="\w{3,}@\w{3,}\.[a-zA-Z]{2,}" placeholder="Entrez ici votre mail">
+                    <p class="msg">
+                        Pour l'adresse email, veuillez respecter le format suivant : <span>aaa@bbb.cc</span> 
+                        où aaa, b et cc sont des caractères alphanumériques. 
+                        aaa correspond au nom et a une taille minimale de 3 caractères, 
+                        bbb est le nom de domaine et doit faire également 3 caractères minimum.
+                        cc est la racine et doit faire 2 caractères minimum. 
+                    </p>                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre niveau</legend>
+
+                    <input id="htmlLevelChoice1" type="radio" name="htmlLevel" checked >
+                    <label for="htmlLevelChoice1">Débutant</label>
+
+                    <input id="htmlLevelChoice2" type="radio" name="htmlLevel" >
+                    <label for="htmlLevelChoice2">Intermédiaire</label>
+
+                    <input id="htmlLevelChoice3" type="radio" name="htmlLevel" >
+                    <label for="htmlLevelChoice3">Expert</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Entrez votre demande</legend>
+                    <textarea required minlength="3" maxlength="1000"></textarea>
+                </fieldset>
+
+                <input type="submit">
+                <input type="reset">
+
+            </form>
+        </div> 
+ 
+        <div id="footer">
+            Controle Continu #1 - Licence Math-info - Semestre 2 2021/2022
+        </div> 
+ 
+    </div>
+    
+    
+</body>
+
+</html>

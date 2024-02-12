@@ -1,0 +1,45 @@
+Apprendre le HTML !
+
+Accueil
+Cours
+Aidez-moi
+
+Les rubriques
+
+Apprendre HTML
+Le style avec CSS
+Dynamisme avec Javascript
+
+
+Accueil
+
+Le HTML est le langage de balisage standard des pages Web. Avec le HTML, vous pouvez créer votre propre site Web. Le HTML est facile à apprendre - Vous allez l'apprécier !
+Qu'est-ce que le HTML ?
+
+HTML est l'abréviation de Hyper Text Markup Language
+HTML est le langage de balisage standard pour la création de pages Web
+Le HTML décrit la structure d'une page Web
+Le HTML est constitué d'une série d'éléments
+Les éléments HTML indiquent au navigateur comment afficher le contenu
+Les éléments HTML étiquettent les éléments de contenu tels que "ceci est un titre", "ceci est un paragraphe", "ceci est un lien", etc.
+
+Usage du HTML
+Type	Pourcentage
+HTML 5	95,9 %
+HTML de transition	4,4 %
+HTML strict	0,2 %
+AMP	0,2 %
+Un document HTML simple
+
+<!DOCTYPE html> 
+<html lang="fr">    
+<head>    
+<title>Ma page</title>    
+</head>    
+<body>
+Bonjour !
+</body>    
+</html>   
+            
+
+Controle Continu #1 - Licence Math-info - Semestre 2 2021/2022

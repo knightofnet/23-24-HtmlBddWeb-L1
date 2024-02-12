@@ -1,0 +1,163 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+#main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+        "nav nav"
+        "sid ctn"
+        "ftr ftr";
+    grid-auto-rows: minmax(10px, auto);
+}
+
+
+#navbar {
+	grid-area: nav;
+	background-color: white;
+	padding-top: 10px;
+}
+
+#sidebar {
+    grid-area: sid;
+    background-color: lightgrey;
+    padding: 0.3em;
+}
+
+#content {
+    grid-area: ctn;
+    background-color: white;
+    padding: 1em;
+}
+
+#footer {
+    grid-area: ftr;
+    background-color: rgb(40, 42, 53);
+    border-top: 5px solid darkgray;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* classes générales */
+
+a.aInline {
+    display: inline-block;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* navbar */
+
+#navbar img {
+    float: left;
+}
+
+.nav-links {
+    background-color: rgb(40, 42, 53);
+}
+
+.nav-links ul {
+    margin: 0;
+    padding : 0;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 20%; 
+}
+
+.nav-links a {
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+.nav-links li:hover, .nav-links .selected {
+    background-color: green;
+}
+
+
+
+/* sidebar */
+
+#sidebar a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+
+}
+
+#sidebar a:hover {
+    color: green;    
+}
+
+
+#content h1, #content h2, #content h3 {
+    font-weight: normal;
+}
+
+
+/* page 1 */
+
+.accroche {
+    background-color: rgb(217, 238, 225);
+    width: 60%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+table {
+	border: 1px solid green;
+	width: 50%;	
+	padding: 0.2em;
+    
+}
+
+td {
+	border-bottom: 1px dotted darkcyan;
+}
+
+
+/* page 2 */
+
+
+
+fieldset {
+    width: 66%;
+    border: 1px solid lightgrey;
+    padding: 1em;
+}
+
+input {
+    margin-top: 0.5em ;
+    margin-bottom: 0.5em ;
+}
+
+input {
+    border-bottom: 1px solid lightgrey ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.msg {
+    font-size: 60%;
+    color: rgb(40, 42, 53);
+}

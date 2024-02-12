@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP HTML Forms : Ex 1</title>
+    
+    <style>
+        #formclient {
+            width : 300px;
+        }
+        #numrue {
+            width : 50px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+<form id="formclient" action="afe62b4c.php" method="post">
+
+<fieldset>
+    
+    <legend> Votre identité </legend>
+    
+    <p>
+        <label> Civilité </label>
+        <select name="civ">
+            <option value="m" selected> M. </option>
+            <option value="mlle" > Mlle </option>
+            <option value="mme" > Mme </option>
+        </select>
+    </p>
+    
+    <p>
+        <label> Nom 
+            <input type="text" name="nom" minlength="2" required autofocus>
+        </label>
+    </p>
+    
+    <p>
+        <label> Prénom 
+            <input type="text" name="prenom" minlength="2" required >
+        </label>
+    </p>
+</fieldset>
+
+
+<fieldset>
+    
+    <legend> Votre connexion </legend>
+    
+    <p>
+        <label> Email 
+            <input type="email" name="idmail" required >
+        </label>
+    </p>
+    
+    <p>
+        <label> Mot de passe 
+            <input type="password" name="motpasse" required minlength="8" maxlength="16" >
+        </label>
+    </p>
+</fieldset>
+
+
+<fieldset>
+    
+    <legend> Votre adresse </legend>
+<p>
+        <input type="number" name="numrue" size="4" id="numrue">,
+        <input type="text" name="rue" placeholder="nom de rue">
+    </p>
+    
+    <p>
+        <input type="text" name="codepostal" pattern="[0-9]{5}" size="5" maxlength="5">
+        <input type="text" name="ville" placeholder="ville">
+    </p>
+</fieldset>
+
+
+<fieldset>
+    
+    <legend> Vos centres d'intérêt </legend>
+
+    <p><label><input type="checkbox" name="listeabo[]" value="eco"> économie </label></p>
+    <p><label><input type="checkbox" name="listeabo[]" value="htc"> high-tech </label></p>
+    <p><label><input type="checkbox" name="listeabo[]" value="pol"> politique </label></p>
+    <p><label><input type="checkbox" name="listeabo[]" value="spo"> sport </label></p>
+    <p><label><input type="checkbox" name="listeabo[]" value="vpr"> vie pratique </label></p>
+</fieldset>
+
+    <p class="boutons">    <input type="submit"> &nbsp; <input type="reset"> </p>    
+</form>
+
+</body>
+</html>

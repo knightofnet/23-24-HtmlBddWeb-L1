@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="fr">  
+ <head>
+  <title>Commande</title>
+  <meta  charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="exoFormulaireCommandeRepas.css" />
+ </head>
+
+ <body>
+ <h1>Commande du repas</h1>
+
+ <form id="commandeRepas" action="ficVide.php" method="get">
+   <fieldset>
+    <legend>Votre identité:</legend> 
+     <p>Lettres non accentuées, espace autorisé, chiffres interdits, au moins deux caractères, trente maximum, ne pas commencer, ni finir par un espace</p> 
+     <span class="decoration">Nom :</span>
+     <input type="text" size="30" pattern="[A-Za-z][A-Za-z ]{0,28}[A-Za-z]" value="Dark" name="nom" />
+     <span class="droite">
+      <span class="decoration">Prénom :</span>
+      <input type="text" size="30" pattern="[A-Za-z][A-Za-z ]{0,28}[A-Za-z]" value="Vador" name="prenom" />
+     </span>
+   </fieldset>
+
+   <h2 >Entrée</h2>
+   <p>Choisissez une entrée :
+    <input type="radio" name="entree" value="e1"  />Noix de St Jacques
+    <input type="radio" name="entree" value="e2"  />Délices du jardin
+    <input type="radio" name="entree" value="e3"  />Foie gras 
+   </p>
+
+   <h2 >Plat principal</h2>
+   <p>Choisissez un plat :
+    <input type="radio" name="plat" value="p1"  />Côte de boeuf
+    <input type="radio" name="plat" value="p2"  />Lasagnes aux légumes 
+    <input type="radio" name="plat" value="p3"  />Bar de ligne  
+   </p>
+
+   <h2>Dessert</h2>
+  
+   <p> <span class="enGras">Vous pouvez choisir plusieurs desserts :</span>
+   <br/>
+    <input type="checkbox" name="dessertM[]" value="d1" />Crème brûlée<br/>
+    <input type="checkbox" name="dessertM[]" value="d2" />Salade de fruits frais<br/>
+    <input type="checkbox" name="dessertM[]" value="d3" />Choux à la crème<br/>
+    <input type="checkbox" name="dessertM[]" value="d4" />Mousse au chocolat<br/>
+    <input type="checkbox" name="dessertM[]" value="d5" />Opéra
+    </p>
+    <p class="enGras"> ... mais vous aurez moins de chaque ! </p>
+
+   <h2>Quantité</h2>
+   <label class="largeur">
+    sélectionner une quantité : 
+     <select name="quantite" size="3">
+	  <option value="op1">frugal</option>
+	  <option value="op2" selected="selected">normal</option>
+	  <option value="op3">copieux</option>
+     </select>
+   </label>     
+ 
+   <p><input class="margeHaute" type="submit" name="soumet" value="Valider" /> </p>
+  </form>
+ </body>
+</html>

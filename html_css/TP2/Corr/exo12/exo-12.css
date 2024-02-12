@@ -3,6 +3,10 @@
 	display: grid;
 	grid-template-columns: 300px 300px;
 	grid-template-rows: 300px 300px;
+
+	grid-template-areas: 
+	"hg hd" 
+	"bg bd" ;
 }
 
 .rouge {
@@ -14,21 +18,17 @@
 }
 
 .haut-gauche {
-	grid-row: 1;
-	grid-column: 1;
+	grid-area: hg;
 }
 
 .bas-gauche {
-	grid-row: 2;
-	grid-column: 1;
+	grid-area: bg;
 }
 
 .haut-droite {
-	grid-row: 1;
-	grid-column: 2;
+	grid-area: hd;
 }
 
 .bas-droite {
-	grid-row: 2;
-	grid-column: 2;
+	grid-area: bd;
 }
